@@ -18,12 +18,12 @@ const TodoList = () => (
         </a>
         <p>
           {' '}
-          A Todo list made from scratch, in the Web Developer Bootcamp as the
+          A Todo list made from scratch in the Web Developer Bootcamp as the
           first main project.
         </p>
         <p>
-          <strong>Used Technologies:</strong> figma, React, styled components,
-          using state hooks.
+          <strong>Used Technologies:</strong> Figma, React, styled components,
+          React hooks.
         </p>
       </section>
       <div className="inner">

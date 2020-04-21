@@ -15,11 +15,14 @@ const Ecommerce = () => (
         <a href="https://ecommerce-upleveled.herokuapp.com/">
           <img className="project" src={thumb02} alt="" />
         </a>
-        <p> A fully responsive webpage, made in the Web Developer Bootcamp.</p>
+        <p>
+          {' '}
+          A fully responsive webpage, built during the Web Developer Bootcamp.
+        </p>
         <p>
           <strong>Used Technologies:</strong> Figma, Next.js, data fetching,
-          using cookies, styled components, setting up and connecting to
-          PostgreSQL database, using state hooks.
+          cookies, styled components, setting up and connecting to PostgreSQL
+          database, Express.js and React hooks.
         </p>
       </section>
       <div className="inner">

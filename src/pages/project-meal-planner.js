@@ -12,18 +12,16 @@ const MealPlanner = () => (
       </section>
 
       <section id="two">
-        <a href="/meal-planner">
-          <img className="project" src={thumb03} alt="" />
-        </a>
+        <img className="project" src={thumb03} alt="" />
+
         <p>
           {' '}
-          A fully responsive web application, made in the Web Developer Bootcamp
-          as a final project. Still in progress.
+          A fully responsive web application, built during the Web Developer
+          Bootcamp as a final project. Still in progress.
         </p>
         <p>
           <strong>Used Technologies:</strong> Figma, Next.js, data fetching,
-          localStorage, styled components, setting up and connecting to
-          PostgreSQL database, using state hooks.
+          localStorage, styled components, PostgreSQL database and React hooks.
         </p>
       </section>
       <div className="inner">

@@ -53,7 +53,7 @@ class HomeIndex extends React.Component {
         <div id="main">
           <section id="one">
             <header className="major">
-              <h2>Hi! I'am Rhaisa, a Junior Web Developer</h2>
+              <h2>An Aspiring Web Developer</h2>
             </header>
             <p>
               {' '}

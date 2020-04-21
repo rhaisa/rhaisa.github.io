@@ -15,10 +15,7 @@ class Footer extends React.Component {
               </a>
             </li>
             <li>
-              <a
-                href="https://github.com/rhaisa?tab=overview&from=2020-03-01&to=2020-03-31"
-                className="icon fa-github"
-              >
+              <a href="https://github.com/rhaisa" className="icon fa-github">
                 <span className="label">Github</span>
               </a>
             </li>

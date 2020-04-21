@@ -26,18 +26,44 @@ class About extends React.Component {
 
           <section id="two">
             <p>
-              {' '}
-              I have a busness dregree and more than 10 years expirecience with
-              quality assurance. I needed a carrer that fix in my life style.
-              After I got married I moved countrys a couple times, every time
-              that I change countrys, I need to start from zero. Even though I
-              had a lot of experience and it was very good at my job.
-              {/* It was always really hard to beggining, as like all my experience doesn't count. */}
+              I have a business dregree and more than 10 years experience with
+              quality assurance. Although I love the business field I needed a
+              carrer that fix in my life style. After I got married I moved to
+              different countrys a couple times, and every time that I change
+              countrys, I need to start my carrer from scratch.
+            </p>
+
+            <p>
+              I would like to have "A universal job" that is independent from
+              language, legal or social aspects of the country I'm in. My
+              enthusiasm and passion for learning is one of the reason I choose
+              start learning code.
+              {/* Even though I had a lot of experience and it was very good at my job. */}
             </p>
             <p>
-              Now I am a Web developer student with experience building websites
-              and web applications. My focus in JavaScript, React, HTML and CSS.
-              I also work with Next.js and GraphQL.
+              After we have settled in Vienna I decided that was the time to
+              pursue my new carrer. I started studying from home for couple of
+              months and them I took party of a bootcamp. So could sharpen my
+              skills faster.
+            </p>
+            <p>
+              I specialize in JavaScript and React. I also have experience
+              building websites and web applicationswith Gatsby, Next.js and
+              building REST APIs with Node and Express.
+            </p>
+            <div>
+              <h3>SKILLS</h3>
+            </div>
+            <p>
+              <strong>Front end:</strong> HTML, CSS, Bootstrap, Accessibility,
+              SEO.{' '}
+            </p>
+            <p>
+              <strong>Back end:</strong> Gatsby, Node.js, Javascript, React,
+              Next.js, Express.
+            </p>
+            <p>
+              <strong>Tools:</strong> Figma, Git, GitHub, heroku, VS Code.
             </p>
           </section>
         </div>

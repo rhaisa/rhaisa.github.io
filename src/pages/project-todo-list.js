@@ -26,6 +26,18 @@ const TodoList = () => (
           using state hooks.
         </p>
       </section>
+      <div className="inner">
+        <ul className="icons">
+          <li>
+            <a
+              href="https://github.com/rhaisa/todo-list"
+              className="icon fa-github git-url"
+            >
+              <span> Project source code </span>
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   </Layout>
 )

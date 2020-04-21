@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types'
 import React, { Component } from 'react'
 import Carousel, { Modal, ModalGateway } from 'react-images'
+import { Link } from 'gatsby'
 
 class Gallery extends Component {
   constructor() {
@@ -22,19 +23,12 @@ class Gallery extends Component {
   renderGallery(images) {
     if (!images) return
 
-    const gallery = images.map((obj, i) => {
+    const gallery = images.map(obj => {
       return (
-        <article className="6u 12u$(xsmall) work-item" key={i}>
-          <a
-            className="image fit thumb"
-            href={obj.source}
-            onClick={e => {
-              e.preventDefault()
-              this.toggleLightbox(i)
-            }}
-          >
+        <article className="6u 12u$(xsmall) work-item" key={obj.id}>
+          <Link className="image fit thumb" to={obj.path}>
             <img src={obj.thumbnail} />
-          </a>
+          </Link>
 
           <h3>{obj.caption}</h3>
           <p>{obj.description}</p>

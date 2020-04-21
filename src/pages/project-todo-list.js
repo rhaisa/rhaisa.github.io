@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Layout from '../components/layout'
+import Layout from '../components/Layout'
 import thumb01 from '../assets/images/thumbs/todoList.png'
 
 const TodoList = () => (

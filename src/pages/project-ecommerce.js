@@ -1,5 +1,5 @@
 import React from 'react'
-import Layout from '../components/layout'
+import Layout from '../components/Layout'
 import thumb02 from '../assets/images/thumbs/ecommerce.png'
 
 const Ecommerce = () => (

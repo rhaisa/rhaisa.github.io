@@ -27,7 +27,7 @@ class Gallery extends Component {
       return (
         <article className="6u 12u$(xsmall) work-item" key={obj.id}>
           <Link className="image fit thumb" to={obj.path}>
-            <img src={obj.thumbnail} />
+            <img src={obj.thumbnail} alt={obj.caption} />
           </Link>
 
           <h3>{obj.caption}</h3>

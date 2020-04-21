@@ -1,5 +1,5 @@
 import React from 'react'
-import Layout from '../components/layout'
+import Layout from '../components/Layout'
 import thumb04 from '../assets/images/thumbs/bootcamp.jpg'
 import thumb05 from '../assets/images/thumbs/techSkills.png'
 

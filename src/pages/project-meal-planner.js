@@ -1,5 +1,5 @@
 import React from 'react'
-import Layout from '../components/layout'
+import Layout from '../components/Layout'
 import thumb03 from '../assets/images/thumbs/mealPlanner.png'
 
 const MealPlanner = () => (

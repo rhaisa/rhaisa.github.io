@@ -2,8 +2,6 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 import Layout from '../components/Layout'
-// import Lightbox from 'react-images'
-import Gallery from '../components/Gallery'
 
 class About extends React.Component {
   render() {

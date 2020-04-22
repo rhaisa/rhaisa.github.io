@@ -24,11 +24,11 @@ class About extends React.Component {
 
           <section id="two">
             <p>
-              I have a business dregree and more than 10 years of experience
-              with quality assurance. Although I love the business field, I felt
-              the need to find a compatible career with my life style. After I
-              got married, I moved to different countries a couple times, and
-              every time that I changed countries, I had to start my career from
+              I have a business degree and more than 10 years of experience with
+              quality assurance. Although I love the business field, I felt the
+              need to find a compatible career with my life style. After I got
+              married, I moved to different countries a couple times, and every
+              time that I changed countries, I had to start my career from
               scratch.
             </p>
 

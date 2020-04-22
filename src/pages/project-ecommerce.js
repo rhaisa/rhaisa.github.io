@@ -12,12 +12,16 @@ const Ecommerce = () => (
       </section>
 
       <section id="two">
-        <a href="https://ecommerce-upleveled.herokuapp.com/">
+        <a
+          href="https://ecommerce-upleveled.herokuapp.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img className="project" src={thumb02} alt="" />
         </a>
         <p>
           {' '}
-          A fully responsive webpage, built during the Web Developer Bootcamp.
+          A fully responsive webpage, built during the Web Development Bootcamp.
         </p>
         <p>
           <strong>Used Technologies:</strong> Figma, Next.js, data fetching,
@@ -30,6 +34,8 @@ const Ecommerce = () => (
           <li>
             <a
               href="https://github.com/rhaisa/ecommerce-store-next-js"
+              target="_blank"
+              rel="noopener noreferrer"
               className="icon fa-github git-url"
             >
               <span> Project source code </span>

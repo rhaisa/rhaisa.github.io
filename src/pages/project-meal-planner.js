@@ -16,7 +16,7 @@ const MealPlanner = () => (
 
         <p>
           {' '}
-          A fully responsive web application, built during the Web Developer
+          A fully responsive web application, built during the Web Development
           Bootcamp as a final project. Still in progress.
         </p>
         <p>
@@ -29,6 +29,8 @@ const MealPlanner = () => (
           <li>
             <a
               href="https://github.com/rhaisa/simple-meal-planner-next-"
+              target="_blank"
+              rel="noopener noreferrer"
               className="icon fa-github git-url"
             >
               <span> Project source code </span>

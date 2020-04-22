@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from '../components/Layout'
-import thumb04 from '../assets/images/thumbs/bootcamp.jpg'
+import thumb06 from '../assets/images/thumbs/bootcamp.jpg'
 import thumb05 from '../assets/images/thumbs/techSkills.png'
 
 const Bootcamp = () => (
@@ -13,8 +13,12 @@ const Bootcamp = () => (
       </section>
 
       <section id="two">
-        <a href="https://upleveled.io/web-development-bootcamp">
-          <img className="project" src={thumb04} alt="" />
+        <a
+          href="https://upleveled.io/web-development-bootcamp"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img className="project" src={thumb06} alt="" />
         </a>
         <p>
           {' '}

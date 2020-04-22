@@ -9,7 +9,7 @@ import Gallery from '../components/Gallery'
 import thumb01 from '../assets/images/thumbs/todoList.png'
 import thumb02 from '../assets/images/thumbs/ecommerce.png'
 import thumb03 from '../assets/images/thumbs/mealPlanner.png'
-import thumb04 from '../assets/images/thumbs/bootcamp.jpg'
+import thumb04 from '../assets/images/thumbs/coding.jpg'
 
 const DEFAULT_IMAGES = [
   {
@@ -40,8 +40,8 @@ const DEFAULT_IMAGES = [
 
 class HomeIndex extends React.Component {
   render() {
-    const siteTitle = 'Gatsby Starter - Strata'
-    const siteDescription = 'Site description'
+    const siteTitle = 'My personal portfolio'
+    const siteDescription = 'Rhaisa portfolio'
 
     return (
       <Layout>

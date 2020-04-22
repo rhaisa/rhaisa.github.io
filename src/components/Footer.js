@@ -9,13 +9,20 @@ class Footer extends React.Component {
             <li>
               <a
                 href="https://twitter.com/RhaisaLouise"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="icon fa-twitter"
               >
                 <span className="label">Twitter</span>
               </a>
             </li>
             <li>
-              <a href="https://github.com/rhaisa" className="icon fa-github">
+              <a
+                href="https://github.com/rhaisa"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="icon fa-github"
+              >
                 <span className="label">Github</span>
               </a>
             </li>
@@ -23,6 +30,8 @@ class Footer extends React.Component {
             <li>
               <a
                 href="https://www.linkedin.com/in/rhaisa-alves-286bbb29/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="icon fa-linkedin"
               >
                 <span className="label">linkedin</span>

@@ -13,12 +13,16 @@ const TodoList = () => (
       </section>
 
       <section id="two">
-        <a href="https://todo-list-rhaisa-2020.netlify.app">
+        <a
+          href="https://todo-list-rhaisa-2020.netlify.app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img className="project" src={thumb01} alt="" />
         </a>
         <p>
           {' '}
-          A Todo list made from scratch in the Web Developer Bootcamp as the
+          A Todo list made from scratch in the Web Development Bootcamp as the
           first main project.
         </p>
         <p>
@@ -31,6 +35,8 @@ const TodoList = () => (
           <li>
             <a
               href="https://github.com/rhaisa/todo-list"
+              target="_blank"
+              rel="noopener noreferrer"
               className="icon fa-github git-url"
             >
               <span> Project source code </span>

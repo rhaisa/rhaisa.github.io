@@ -54,7 +54,7 @@ class About extends React.Component {
             </div>
             <p>
               <strong>Front end:</strong> HTML, CSS, Bootstrap, Accessibility,
-              SEO.{' '}
+              GraphQL, SEO.{' '}
             </p>
             <p>
               <strong>Back end:</strong> Gatsby, Node.js, Javascript, React,

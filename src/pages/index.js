@@ -41,7 +41,8 @@ const DEFAULT_IMAGES = [
 class HomeIndex extends React.Component {
   render() {
     const siteTitle = 'My personal portfolio'
-    const siteDescription = 'Rhaisa portfolio'
+    const siteDescription =
+      'I am a Web developer student and this is my website'
 
     return (
       <Layout>

@@ -1,19 +1,19 @@
 import React from 'react'
 import Layout from '../components/Layout'
-import thumb02 from '../assets/images/thumbs/ecommerce.png'
+import thumb02 from '../assets/images/thumbs/ecommerce.jpg'
 
 const Ecommerce = () => (
   <Layout>
     <div id="main">
       <section id="one">
         <header className="major"></header>
-        <h2>ECOMMERCE STORE</h2>
+        <h2>ECOMMERCE PROJECT</h2>
         <ul className="actions"></ul>
       </section>
 
       <section id="two">
         <a
-          href="https://ecommerce-upleveled.herokuapp.com/"
+          href="https://findmebeauty.herokuapp.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -26,7 +26,7 @@ const Ecommerce = () => (
         <p>
           <strong>Used Technologies:</strong> Figma, Next.js, data fetching,
           cookies, styled components, setting up and connecting to PostgreSQL
-          database, Express.js and React hooks.
+          database, Heroku, Express.js and React hooks.
         </p>
       </section>
       <div className="inner">

@@ -22,10 +22,10 @@ const Bootcamp = () => (
         </a>
         <p>
           {' '}
-          Coding Bootcamp is an innovative new form of short-term, intensive,
+          Coding Bootcamps are an innovative new form of short-term, intensive,
           and immersive education designed to provide aspiring tech
-          professionals the technical skills they need to start careers in
-          software engineering and other tech fields.
+          professionals with the technical skills they need to start a career in
+          software engineering and related other tech fields.
         </p>
         <div>
           <strong>Technologies:</strong>

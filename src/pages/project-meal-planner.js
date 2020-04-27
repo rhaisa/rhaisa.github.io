@@ -7,7 +7,7 @@ const MealPlanner = () => (
     <div id="main">
       <section id="one">
         <header className="major"></header>
-        <h2>MEAL PLANNER</h2>
+        <h2>MEAL PLANNER APP</h2>
         <ul className="actions"></ul>
       </section>
 

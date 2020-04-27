@@ -8,7 +8,7 @@ const TodoList = () => (
     <div id="main">
       <section id="one">
         <header className="major"></header>
-        <h2>TODO LIST</h2>
+        <h2>TODO LIST PROJECT</h2>
         <ul className="actions"></ul>
       </section>
 

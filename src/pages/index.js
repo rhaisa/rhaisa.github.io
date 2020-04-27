@@ -7,9 +7,9 @@ import Layout from '../components/Layout'
 import Gallery from '../components/Gallery'
 
 import thumb01 from '../assets/images/thumbs/todoList.png'
-import thumb02 from '../assets/images/thumbs/ecommerce.png'
+import thumb02 from '../assets/images/thumbs/ecommerce1.jpg'
 import thumb03 from '../assets/images/thumbs/mealPlanner.png'
-import thumb04 from '../assets/images/thumbs/coding.jpg'
+import thumb04 from '../assets/images/thumbs/code.jpg'
 
 const DEFAULT_IMAGES = [
   {
@@ -21,19 +21,19 @@ const DEFAULT_IMAGES = [
   {
     id: '1',
     thumbnail: thumb01,
-    caption: 'Todo List',
+    caption: 'Todo List Project',
     path: '/project-todo-list',
   },
   {
     id: '2',
     thumbnail: thumb02,
-    caption: 'Ecommerce',
+    caption: 'Ecommerce Project',
     path: '/project-ecommerce',
   },
   {
     id: '3',
     thumbnail: thumb03,
-    caption: 'Meal Planer',
+    caption: 'Meal Planner App',
     path: '/project-meal-planner',
   },
 ]
@@ -42,7 +42,7 @@ class HomeIndex extends React.Component {
   render() {
     const siteTitle = 'My personal portfolio'
     const siteDescription =
-      'I am a Web developer student and this is my website'
+      'I am a web development student and this is my website'
 
     return (
       <Layout>
@@ -58,10 +58,10 @@ class HomeIndex extends React.Component {
             </header>
             <p>
               {' '}
-              I am a Web developer student with experience in building websites
-              and web applications. My focus in JavaScript, React, HTML and CSS.
-              I also work with Next.js and GraphQL. Take a look at my work or
-              get in touch!
+              I am a web development student with experience in building dynamic
+              websites and web applications. I focus on JavaScript, React, HTML
+              and CSS, and also work with Next.js and GraphQL. Take a look at my
+              work and get in touch!
             </p>
             <ul className="actions">
               <li>

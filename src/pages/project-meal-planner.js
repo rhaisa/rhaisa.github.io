@@ -16,8 +16,7 @@ const MealPlanner = () => (
 
         <p>
           {' '}
-          A fully responsive web application, built during the Web Development
-          Bootcamp as a final project. Still in progress.
+          A fully responsive web application, built during the Web Development Bootcamp as a final project. Still in progress.
         </p>
         <p>
           <strong>Used Technologies:</strong> Figma, Next.js, data fetching,

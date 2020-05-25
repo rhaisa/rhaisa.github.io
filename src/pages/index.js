@@ -10,6 +10,7 @@ import thumb01 from '../assets/images/thumbs/todoList.png'
 import thumb02 from '../assets/images/thumbs/ecommerce1.jpg'
 import thumb03 from '../assets/images/thumbs/mealPlanner.png'
 import thumb04 from '../assets/images/thumbs/code.jpg'
+import thumb05 from '../assets/images/thumbs/color-game.png'
 
 const DEFAULT_IMAGES = [
   {
@@ -35,6 +36,12 @@ const DEFAULT_IMAGES = [
     thumbnail: thumb03,
     caption: 'Meal Planner App',
     path: '/project-meal-planner',
+  },
+  {
+    id: '5',
+    thumbnail: thumb05,
+    caption: 'Color Game Project',
+    path: '/project-color-game',
   },
 ]
 

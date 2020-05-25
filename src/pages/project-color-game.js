@@ -21,7 +21,7 @@ const ColorGame = () => (
         </a>
         <p>
           {' '}
-          A fully responsive web application, built entirely with Vanilla JavaScript, CSS and HTML to solidify my foundation knowledge in JavaScript. This App is also automatically deployed with Netlify.
+          A fully responsive web application, this project was built entirely with Vanilla JavaScript, CSS and HTML to solidify my foundation knowledge in JavaScript. This App is also automatically deployed with Netlify.
         </p>
         <p>
           <strong>Used Technologies:</strong> Figma, Github, JavaScript, CSS, HTML and Netlify.

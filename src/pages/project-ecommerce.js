@@ -21,7 +21,7 @@ const Ecommerce = () => (
         </a>
         <p>
           {' '}
-          A fully responsive webpage, built during the Web Development Bootcamp.
+          A e-commerce built during the Web Development Bootcamp from figma to the database. The main idea is a page where you can find a beauty treatment without to going to a beauty salon. In the page you will find freelancer professionals who best meet your needs and will assiste you at your home. You have access to the professional media page to have reference of his work. The appointment and the payment are made directly in the web site. A stretch goal to this page is adding reviews from clients.  
         </p>
         <p>
           <strong>Used Technologies:</strong> Figma, Next.js, data fetching,

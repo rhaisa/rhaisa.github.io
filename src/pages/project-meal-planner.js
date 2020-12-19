@@ -16,7 +16,8 @@ const MealPlanner = () => (
 
         <p>
           {' '}
-          A fully responsive web application, built during the Web Development Bootcamp as a final project. Still in progress.
+          A fully responsive web application, built during the Web Development Bootcamp as a final project. The main ideia of this project is having a application to plan your meals during the week. When the meal is added it generate automatically a shopping list. You can also plan meals for future meals and add random itens in your shopping list.
+          <br/>Still in progress.
         </p>
         <p>
           <strong>Used Technologies:</strong> Figma, Next.js, data fetching,

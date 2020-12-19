@@ -24,47 +24,36 @@ class About extends React.Component {
           </section>
 
           <section id="two">
-            <p>I am from Brazil, but I live in Vienna since the end of 2016.</p>
             <p>
-              I have a business degree and more than 10 years of experience with
-              quality assurance. Although I love that business field, I felt the
-              need to find a career that's compatible with my lifestyle. After I
-              got married, I moved to different countries a couple of times, and
-              every time that I changed countries, I had to start my career from
-              scratch.
+            I am originally from Brazil, but I have now settled in Vienna since the end of 2016, after experiencing life in three different countries, I have decided that was the time to pursue a new career. During this new challenge, I have found that a successful career in the modern days is directly related to technology.  
             </p>
 
             <p>
-              I would like to have a "universal job" that is independent from
-              language and legal or social aspects of the country I'm living in.
-              My enthusiasm and passion for learning are some of the reasons I
-              have chosen to start learning to code.
-              {/* Even though I had a lot of experience and it was very good at my job. */}
+            The tech industry was the most exciting field I could find which checks all the boxes. My enthusiasm and passion for learning are some of the reasons I have chosen to start learning to code. I started studying from home for a couple of months and then I signed up for a coding Bootcamp to sharpen my skills faster.
             </p>
             <p>
-              After we settled in Vienna, I decided that was the time to pursue
-              my new career. I started studying from home for a couple of months
-              and then I signed up for a bootcamp to sharpen my skills faster.
+            During my training at the Bootcamp I experienced Tester activities, and it was love at first sight. It was the complete match between my quality assurance expertise and the career path that I was aiming for. Following the Bootcamp I started to study more about testing frameworks, and recently became a   ISTQB certified Tester.
             </p>
             <p>
-              I specialize in JavaScript and React and also have experience
-              building websites and web applications with Gatsby, Next.js as
-              well as building REST APIs with Node.js and Express.
+            There are still many things to learn, but as I love learning new things everyday, I am sure this is the right path for me.
             </p>
-            <div>
-              <h3>SKILLS</h3>
-            </div>
+           
+            <h3>SKILLS</h3>
             <p>
-              <strong>Front end:</strong> HTML, CSS, Bootstrap, Accessibility,
-              GraphQL, SEO.
+              <strong>Front end:</strong> HTML, CSS, Bootstrap, Accessibility, SEO,  React, Gatsby, Next.js.<br/>
+              <strong>Back end:</strong>  Node.js, JavaScript, PostgreSQL and SQL fundamentals.<br/>
+              <strong>Tools:</strong> Figma, Git, GitHub, Heroku and VS Code.
             </p>
+            <h3>CURRENTLY LEARNING</h3>
             <p>
-              <strong>Back end:</strong> Gatsby, Node.js, JavaScript, React,
-              Next.js, Express.
+              <strong>Testing Tools:</strong> Tosca and Selenium<br/>
+              <strong>Project Management Tools:</strong> Confluence and Jira<br/>
+              <strong>Testings Frameworks:</strong> Robot Framework and Cypress<br/>
+              <strong>Agile:</strong> Scrum, Continuous Integration (CI) and Continuous Deployment (CD)<br/>
             </p>
-            <p>
-              <strong>Tools:</strong> Figma, Git, GitHub, Heroku, VS Code.
-            </p>
+              
+          
+           
           </section>
         </div>
       </Layout>

@@ -16,7 +16,7 @@ jobs:
           node-version: 22
 
       - name: Setup Python 2
-        run: sudo apt update -y && sudo apt install python2.7 -y  
+        run: sudo apt update -y && sudo apt install python2 -y
       
       - name: Install dependencies
         run: npm install

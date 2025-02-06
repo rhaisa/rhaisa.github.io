@@ -17,6 +17,7 @@ jobs:
     
       - name: Setup Python 2
         run: |
+          sudo apt install build-essential zlib1g-dev libssl-dev libreadline-dev libncurses5-dev libsqlite3-dev tk-dev libgdbm-dev -y
           wget https://www.python.org/ftp/python/2.7.9/Python-2.7.9.tgz
           sudo tar xzf Python-2.7.9.tgz
           cd Python-2.7.9

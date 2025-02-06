@@ -14,22 +14,17 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-
-      # - name: Setup Python 2
-      #   run: sudo apt update -y && sudo apt install python2 -y
+    
       - name: Setup Python 2
         run: |
-          sudo apt-get update -y
-          sudo apt-get install python2 python2-pip -y
-          python2 --version
-    
-      # - name: Setup Python 2
-      #   run: |
-      #     wget https://www.python.org/ftp/python/2.7.9/Python-2.7.9.tgz
-      #     sudo tar xzf Python-2.7.9.tgz
-      #     cd Python-2.7.9
-      #     sudo ./configure --enable-optimizations
-      #     sudo make altinstall
+          wget https://www.python.org/ftp/python/2.7.9/Python-2.7.9.tgz
+          sudo tar xzf Python-2.7.9.tgz
+          cd Python-2.7.9
+          sudo ./configure --enable-optimizations
+          sudo make altinstall
+          python2.7 -V
+          sudo ln -sfn '/usr/local/bin/python2.7' '/usr/bin/python2'
+          sudo update-alternatives --install /usr/bin/python python /usr/bin/python2 1
       
       - name: Install dependencies
         run: npm install

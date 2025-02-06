@@ -2,10 +2,9 @@
 
 This is my personal website
 
-I am a Web developer student with experience in building websites
-and web applications. My focus in JavaScript, React, HTML and CSS.
-I also work with Next.js and GraphQL. Take a look at my work or
-get in touch!
+Passionate and detail-oriented Software Tester Engineer with a proven track record of ensuring high-quality
+software products. Experienced in various testing methodologies and tools, dedicated to delivering exceptional
+user experiences. Eager to contribute to innovative projects and collaborate with talented teams.
 
 ## Preview
 

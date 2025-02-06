@@ -16,10 +16,10 @@ jobs:
           node-version: 22
 
       - name: Setup Python 2
-        run: apt update -y && apt install python2.7 -y  
+        run: sudo apt update -y && sudo apt install python2.7 -y  
       
       - name: Install dependencies
-        run: npm install --ignore-scripts
+        run: npm install
       
       - uses: enriikke/gatsby-gh-pages-action@v2
         with:

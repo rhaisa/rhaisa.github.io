@@ -25,7 +25,7 @@ class About extends React.Component {
 
           <section id="two">
             <p>
-            I am originally from Brazil, but I have now settled in Vienna since the end of 2016, after experiencing life in three different countries, I have decided that was the time to pursue a new career. During this new challenge, I have found that a successful career in the modern days is directly related to technology.  
+            I am originally from Brazil, but I've settled in Barcelona, Spain, after experiencing life in three different countries. Living in distinct places brought me unique life experiences such as improving my problem solving skills, broadening my worldview, language skills, cultural awareness and adaptability. During this time, I realised that a successful career in the modern days is directly related to technology.  
             </p>
 
             <p>
@@ -35,25 +35,17 @@ class About extends React.Component {
             During my training at the Bootcamp I experienced Tester activities, and it was love at first sight. It was the complete match between my quality assurance expertise and the career path that I was aiming for. Following the Bootcamp I started to study more about testing frameworks, and recently became a   ISTQB certified Tester.
             </p>
             <p>
+            Right after the Bootcamp I was lucky enough to be part of an amazing team, I worked as a software tester engineer for a medical company. [BD](https://www.bd.com/en-us/) is one of the largest global medical technology companies in the world and is advancing the world of health by improving medical discovery, diagnostics and the delivery of care. It has more than 70,000 employees.
+            </p>
+            <p>
             There are still many things to learn, but as I love learning new things everyday, I am sure this is the right path for me.
             </p>
            
             <h3>SKILLS</h3>
             <p>
-              <strong>Front end:</strong> HTML, CSS, Bootstrap, Accessibility, SEO,  React, Gatsby, Next.js.<br/>
-              <strong>Back end:</strong>  Node.js, JavaScript, PostgreSQL and SQL fundamentals.<br/>
-              <strong>Tools:</strong> Figma, Git, GitHub, Heroku and VS Code.
+              Strong written and verbal communication skills, analytical and logical mindset, interpersonal skills, eagerness to learn and attention to detail.<br/>
+              <strong>Tools:</strong> Figma, Tosca, Azure DevOps, Confluence, Jira, SQL server, Agile methodologies.<br/>
             </p>
-            <h3>CURRENTLY LEARNING</h3>
-            <p>
-              <strong>Testing Tools:</strong> Tosca and Selenium<br/>
-              <strong>Project Management Tools:</strong> Confluence and Jira<br/>
-              <strong>Testings Frameworks:</strong> Robot Framework and Cypress<br/>
-              <strong>Agile:</strong> Scrum, Continuous Integration (CI) and Continuous Deployment (CD)<br/>
-            </p>
-              
-          
-           
           </section>
         </div>
       </Layout>

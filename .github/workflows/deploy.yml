@@ -15,8 +15,16 @@ jobs:
         with:
           node-version: 22
 
+      # - name: Setup Python 2
+      #   run: sudo apt update -y && sudo apt install python2 -y
+    
       - name: Setup Python 2
-        run: sudo apt update -y && sudo apt install python2 -y
+        run: |
+          wget https://www.python.org/ftp/python/2.7.9/Python-2.7.9.tgz
+          sudo tar xzf Python-2.7.9.tgz
+          cd Python-2.7.9
+          sudo ./configure --enable-optimizations
+          sudo make altinstall
       
       - name: Install dependencies
         run: npm install

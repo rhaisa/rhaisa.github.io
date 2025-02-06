@@ -3,6 +3,15 @@
   "description": "My personal portfolio",
   "version": "1.0.0",
   "author": "Rhaisa Alves",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "dev": "gatsby develop",
+    "format": "prettier --write '**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gatsby build && gh-pages -d public -b master"
+  },
   "dependencies": {
     "gatsby": "^2.20.28",
     "gatsby-plugin-manifest": "^2.3.6",
@@ -18,21 +27,11 @@
   "keywords": [
     "gatsby"
   ],
-  "license": "MIT",
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "dev": "gatsby develop",
-    "format": "prettier --write '**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gatsby build && gh-pages -d public -b master"
-  },
   "devDependencies": {
     "prettier": "^1.18.2",
     "gh-pages": "^2.2.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  "volta": {
+    "node": "22.13.1"
   }
 }

@@ -10,12 +10,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      
-      - name: Install uv
-        uses: astral-sh/setup-uv@v5
 
-      - name: Install Python
-        run: uv python install 2.7
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      
+      - name: Install dependencies
+        run: npm install
       
       - uses: enriikke/gatsby-gh-pages-action@v2
         with:
